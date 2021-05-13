@@ -52,7 +52,7 @@ def CnnSmall():
 
 @module
 def CnnLarge():
-    """CNN used for the Ponf and Skiing experiments in:
+    """CNN used for the Pong and Skiing experiments in:
     https://arxiv.org/abs/2102.12425"""
     return serial(
         Conv(32, (3, 3), (2, 2), "VALID"),
